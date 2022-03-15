@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: blueviolet;
+    height: 20vh;
+
+}
+.container{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.nav{
+    width: 30%;
+    height: 50%;
+    background-color: aqua;
+}
+.ads{
+    width: 30%;
+    height: 50%;
+    background-color: darkblue;
+}
+.article{
+    width: 70%;
+    height: 80%;
+    background-color: blue;
+}
+.footer{
+    width: 70%;
+    height: 20%;
+    background-color: brown;
+}
+/* .small_box{
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px 10px; row gap column gap
+} */
